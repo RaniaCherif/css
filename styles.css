@@ -36,7 +36,17 @@ body{
     padding: 5px;
     text-decoration:none
   }
- h1{
-    color: #2B3467;
+ .rania{
+    color:#B000B9;
+   text-align:center;
  }
-  
+ .rania h1{
+    margin-bottom:1px;
+ }
+ h5{
+    margin-top:1px;
+    text-align:center;
+ }
+ h2{
+    color:#227C70;
+ }
