@@ -5,9 +5,10 @@ body{
 .container{
     background-color: #F0DBDB;
     font-family:'Roboto', sans-serif;
-    width: 70%;
-    height:50%;
+    width: 900px;
+    height:1010px;
     margin: auto 150px;
+    padding: 10px;
 }
     
    /*classe img stayling*/
@@ -24,13 +25,16 @@ body{
    display:inline;
    position:fixed;
    margin: 0px 100px;
+   padding: 0;
   }
-  li {
+
+li {
     border-right: 1px solid #bbb;
     float: left;
     display:inline;
     margin: 5px 40px;
   }
+
   li:last-child {
     border-right: none;
   }
@@ -54,3 +58,6 @@ body{
  h2{
     color:#227C70;
  }
+.footer p{
+text-align: center; 
+}
