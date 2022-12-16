@@ -1,11 +1,15 @@
 /*body styling background and font familly style and widh/height/margin*/
 body{
+    background-color: black;
+}
+.container{
     background-color: #F0DBDB;
     font-family:'Roboto', sans-serif;
-    width: 900px;
-    height:700px;
-    margin: 100px;
-    }
+    width: 70%;
+    height:50%;
+    margin: auto 150px;
+}
+    
    /*classe img stayling*/
 .img{
     width: 300px;
@@ -19,15 +23,13 @@ body{
    background-color: #BAD7E9;
    display:inline;
    position:fixed;
-   top: 2px;
-   width: 0% 70%;
-   height: 5%;  
+   margin: 0px 100px;
   }
   li {
     border-right: 1px solid #bbb;
     float: left;
     display:inline;
-    margin: 5px 50px;
+    margin: 5px 40px;
   }
   li:last-child {
     border-right: none;
@@ -39,6 +41,8 @@ body{
  .rania{
     color:#B000B9;
    text-align:center;
+   margin-top:10px;
+   padding: 5px;
  }
  .rania h1{
     margin-bottom:1px;
